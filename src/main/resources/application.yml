@@ -11,6 +11,7 @@ spring:
       ddl-auto: create # create,update,none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      show-sql : true
 
 server:
   servlet:
