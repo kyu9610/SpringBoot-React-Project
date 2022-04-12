@@ -16,7 +16,7 @@ import javax.persistence.Id;
 public class Book {
     @Id // PK를 id로 지정
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 해당 데이터베이스 번호증가 전략 따라감
-    private long id;
+    private Long id;
 
     private String title;
     private String author;
